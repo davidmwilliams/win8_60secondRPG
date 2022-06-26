@@ -1,0 +1,44 @@
+﻿<Page
+    x:Class="_60s_RPG.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:_60s_RPG"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Button x:Name="bForward" Content="Button" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="100,495,0,0" Width="160" Height="76" FontSize="24" Click="bForward_Click"/>
+        <Button x:Name="bLeft" Content="Button" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="14,585,0,0" Width="160" Height="76" FontSize="24" Click="bLeft_Click"/>
+        <Button x:Name="bRight" Content="Button" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="180,585,0,0" Width="160" Height="76" FontSize="24" Click="bRight_Click"/>
+        <Button x:Name="bTwo" Content="Button" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="1195,451,0,0" Width="160" Height="76" FontSize="24" Click="bTwo_Click"/>
+        <Button x:Name="bOne" Content="Button" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="1028,451,0,0" Width="160" Height="76" FontSize="24" Click="bOne_Click"/>
+        <Button x:Name="bThree" Content="Button" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="1028,549,0,0" Width="160" Height="76" FontSize="24" Click="bThree_Click"/>
+        <Button x:Name="bFour" Content="Button" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="1195,549,0,0" Width="160" Height="76" FontSize="24" Click="bFour_Click"/>
+        <Button x:Name="bFive" Content="Button" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="1028,644,0,0" Width="160" Height="76" FontSize="24" Click="bFive_Click"/>
+        <Button x:Name="bSix" Content="Button" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="1195,644,0,0" Width="160" Height="76" FontSize="24" Click="bSix_Click"/>
+        <TextBlock x:Name="txtTitle" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Text="60 second RPG" FontSize="36" FontWeight="Bold" Margin="16,0,0,0"/>
+        <TextBlock x:Name="txtMain" Margin="353,57,0,0" HorizontalAlignment="Left" Height="677" TextWrapping="Wrap" VerticalAlignment="Top" Width="656" FontSize="12" Foreground="#FFAFAFF3" FontFamily="Consolas"/>
+        <TextBlock x:Name="lblHP" HorizontalAlignment="Left" TextWrapping="Wrap" Text="HP" VerticalAlignment="Top" Margin="95,66,0,0" FontSize="18.667" RenderTransformOrigin="0.99,1.955"/>
+        <TextBlock x:Name="lblXP" HorizontalAlignment="Left" TextWrapping="Wrap" Text="XP" VerticalAlignment="Top" Margin="98,90,0,0" FontSize="18.667" RenderTransformOrigin="0.99,1.955"/>
+        <TextBlock x:Name="lblStrength" HorizontalAlignment="Left" TextWrapping="Wrap" Text="Strength" VerticalAlignment="Top" Margin="49,114,0,0" FontSize="18.667" RenderTransformOrigin="0.99,1.955"/>
+        <TextBlock x:Name="lblMagic" HorizontalAlignment="Left" TextWrapping="Wrap" Text="Magic" VerticalAlignment="Top" Margin="69,138,0,0" FontSize="18.667" RenderTransformOrigin="0.99,1.955"/>
+        <TextBlock x:Name="lblAgility" HorizontalAlignment="Left" TextWrapping="Wrap" Text="Agility" VerticalAlignment="Top" Margin="67,162,0,0" FontSize="18.667" RenderTransformOrigin="0.99,1.955"/>
+        <TextBlock x:Name="lblProtection" HorizontalAlignment="Left" TextWrapping="Wrap" Text="Protection" VerticalAlignment="Top" Margin="34,186,0,0" FontSize="18.667" RenderTransformOrigin="0.99,1.955"/>
+        <TextBlock x:Name="txtHP" HorizontalAlignment="Left" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Margin="140,66,0,0" FontSize="18.667" RenderTransformOrigin="0.99,1.955"/>
+        <TextBlock x:Name="txtXP" HorizontalAlignment="Left" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Margin="140,90,0,0" FontSize="18.667" RenderTransformOrigin="0.99,1.955"/>
+        <TextBlock x:Name="txtStrength" HorizontalAlignment="Left" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Margin="140,114,0,0" FontSize="18.667" RenderTransformOrigin="0.99,1.955"/>
+        <TextBlock x:Name="txtMagic" HorizontalAlignment="Left" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Margin="140,138,0,0" FontSize="18.667" RenderTransformOrigin="0.99,1.955"/>
+        <TextBlock x:Name="txtAgility" HorizontalAlignment="Left" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Margin="140,162,0,0" FontSize="18.667" RenderTransformOrigin="0.99,1.955"/>
+        <TextBlock x:Name="txtProtection" HorizontalAlignment="Left" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Margin="140,186,0,0" FontSize="18.667" RenderTransformOrigin="0.99,1.955"/>
+        <TextBlock x:Name="lblGold" HorizontalAlignment="Left" TextWrapping="Wrap" Text="Gold" VerticalAlignment="Top" Margin="1120,66,0,0" FontSize="18.667" RenderTransformOrigin="0.99,1.955"/>
+        <TextBlock x:Name="lblFood" HorizontalAlignment="Left" TextWrapping="Wrap" Text="Food" VerticalAlignment="Top" Margin="1117,90,0,0" FontSize="18.667" RenderTransformOrigin="0.99,1.955"/>
+        <TextBlock x:Name="lblHPPotions" HorizontalAlignment="Left" TextWrapping="Wrap" Text="HP potions" VerticalAlignment="Top" Margin="1068,114,0,0" FontSize="18.667" RenderTransformOrigin="0.99,1.955"/>
+        <TextBlock x:Name="lblManaPotions" HorizontalAlignment="Left" TextWrapping="Wrap" Text="Mana potions" VerticalAlignment="Top" Margin="1045,138,0,0" FontSize="18.667" RenderTransformOrigin="0.99,1.955"/>
+        <TextBlock x:Name="txtGold" HorizontalAlignment="Left" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Margin="1175,66,0,0" FontSize="18.667" RenderTransformOrigin="0.99,1.955"/>
+        <TextBlock x:Name="txtFood" HorizontalAlignment="Left" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Margin="1175,90,0,0" FontSize="18.667" RenderTransformOrigin="0.99,1.955"/>
+        <TextBlock x:Name="txtHPPotions" HorizontalAlignment="Left" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Margin="1175,114,0,0" FontSize="18.667" RenderTransformOrigin="0.99,1.955"/>
+        <TextBlock x:Name="txtManaPotions" HorizontalAlignment="Left" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Margin="1175,138,0,0" FontSize="18.667" RenderTransformOrigin="0.99,1.955"/>
+
+    </Grid>
+</Page>
